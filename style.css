@@ -58,7 +58,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: rgb(20, 40, 220);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -75,7 +75,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: rgb(40, 20, 220);
 }
 .navbar .max-width{
     display: flex;
@@ -88,7 +88,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(20, 50, 220);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -107,7 +107,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(20, 100, 220);
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -124,7 +124,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: rgb(20, 50, 220);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -152,11 +152,12 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("./img3.jpg") no-repeat center;
+    background-color: #111;
+    /* background: url("./img4.jpg") no-repeat center center fixed;  */
     height: 100vh;
-    color: #fff;
+    color: rgb(217, 255, 0);
     min-height: 500px;
-    background-size:1200px 1000px;
+    background-size:100% 100%;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
